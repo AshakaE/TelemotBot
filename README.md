@@ -2,7 +2,7 @@
 
 # Telegram Bot
 
-> This s a bot that sends the chat user inspirational messages and jokes.
+> This is a bot that sends the chat user inspirational messages and jokes.
 
 ![screenshot](img/app_screenshot.gif)
 
