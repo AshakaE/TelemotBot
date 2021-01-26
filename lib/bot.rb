@@ -1,3 +1,5 @@
+# rubocop:disable Metrics/MethodLength
+# rubocop:disable Layout/LineLength
 require 'telegram/bot'
 require_relative 'inspire'
 require_relative 'joke'
@@ -31,3 +33,5 @@ class Bot
     end
   end
 end
+# rubocop:enable Metrics/MethodLength
+# rubocop:enable Layout/LineLength
