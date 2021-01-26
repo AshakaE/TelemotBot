@@ -21,15 +21,25 @@ GEM
     inflecto (0.0.2)
     json (2.5.1)
     multipart-post (2.1.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
     net-http-persistent (4.0.1)
       connection_pool (~> 2.2)
-    openssl (2.2.0)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
     ruby2_keywords (0.0.4)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
     telegram-bot-ruby (0.14.0)
       faraday
       inflecto
       virtus
     thread_safe (0.3.6)
+    tilt (2.0.10)
     virtus (1.0.5)
       axiom-types (~> 0.1)
       coercible (~> 1.0)
@@ -43,7 +53,7 @@ DEPENDENCIES
   dotenv
   json
   net-http-persistent
-  openssl
+  sinatra
   telegram-bot-ruby
 
 BUNDLED WITH

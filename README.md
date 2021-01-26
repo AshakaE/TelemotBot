@@ -1,18 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Telegram Bot
 
-> One paragraph statement about the project.
+> This s a bot that sends the chat user inspirational messages and jokes.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+> It works by sending a `/start` to start the conversation, `/inspire` to get an inspirational message, `/joke` to get a **yo mama** joke, and `/stop` to end the conversation.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+-`RUBY`
+- `VScode`
+- `Bundler`
 
 ## Live Demo
 

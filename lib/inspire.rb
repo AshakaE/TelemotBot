@@ -7,10 +7,10 @@ class Inspire
   @values = nil
 
   def initialize
-    @values = make_the_request
+    @values = new_request
   end
 
-  def make_the_request
+  def new_request
     url = 'https://type.fit/api/quotes'
     uri = URI(url)
     response = Net::HTTP.get(uri)

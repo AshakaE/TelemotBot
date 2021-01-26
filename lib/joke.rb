@@ -6,10 +6,10 @@ class Jokes
   @jokes = nil
 
   def initialize
-    @jokes = make_the_request
+    @jokes = new_request
   end
 
-  def make_the_request
+  def new_request
     url = 'https://api.yomomma.info/'
     uri = URI(url)
     response = Net::HTTP.get(uri)
