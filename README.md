@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://telemot-bot.herokuapp.com/)
+[TelemotBot](https://telemot-bot.herokuapp.com/)
 
 
 ## Available commands for the TelemotBot
