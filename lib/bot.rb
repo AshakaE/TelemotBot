@@ -15,7 +15,7 @@ class Bot
         case message.text
         when '/start'
           bot.api.send_message(chat_id: message.chat.id,
-                               text: "Hello, #{message.from.first_name} , Welcome to Inspire chat bot by Ashaka Egerega, the chat bot is to keep you motivated and entertained. Use  /start to start the bot,  /stop to end the bot, /inspire to get a different inspirational quote or /joke to get a message joke") 
+                               text: "Hello, #{message.from.first_name} , Welcome to Inspire chat bot by Ashaka Egerega, the chat bot is to keep you motivated and entertained. Use  /start to start the bot,  /stop to end the bot, /inspire to get a different inspirational quote or /joke to get a message joke")
         when '/stop'
           bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}", date: message.date)
         when '/inspire'

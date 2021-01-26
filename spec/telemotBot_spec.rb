@@ -1,5 +1,5 @@
-require_relative '../lib/inspire.rb'
-require_relative '../lib/joke.rb'
+require_relative '../lib/inspire'
+require_relative '../lib/joke'
 
 RSpec.describe Inspire do
   describe '#new_request' do
