@@ -83,8 +83,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to [@peterrobert](https://github.com/peterrobert).
-- [Microverse](https://www.microverse.org/) for the readme template.
+- Hat tip to [@peterrobert](https://github.com/peterrobert) for the tutorial.
+- Hat tip to [Microverse](https://www.microverse.org/) for the readme template.
 
 ## 📝 License
 
