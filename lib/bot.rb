@@ -5,7 +5,7 @@ require_relative 'inspire'
 require_relative 'joke'
 require 'dotenv'
 
-Dotenv.load('./.env')
+Dotenv.load('.env')
 
 class Bot
   def initialize
