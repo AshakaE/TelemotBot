@@ -25,7 +25,9 @@ class Bot
         when '/joke'
           jokes = Jokes.new
           joke = jokes.newjoke
-          bot.api.send_message(chat_id: message.chat.id, text: (joke['joke']).to_s, date: message.date)
+          bot.api.send_message(chat_id: message.chat.id, text: (joke['setup']).to_s, date: message.date)
+          sleep 2
+          bot.api.send_message(chat_id: message.chat.id, text: (joke['punchline']).to_s, date: message.date)
         else bot.api.send_message(chat_id: message.chat.id,
                                   text: "Invalid entry, #{message.from.first_name}, you need to use  /start,  /stop , /inspire or /joke")
         end

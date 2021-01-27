@@ -10,7 +10,7 @@ class Jokes
   end
 
   def new_request
-    url = 'https://api.yomomma.info/'
+    url = 'https://official-joke-api.appspot.com/jokes/random'
     uri = URI(url)
     response = Net::HTTP.get(uri)
     JSON.parse(response)
