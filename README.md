@@ -6,7 +6,7 @@
 
 ![screenshot](img/app_screenshot.gif)
 
-> It works by sending a `/start` to start the conversation, `/inspire` to get an inspirational message, `/joke` to get a **yo mama** joke, and `/stop` to end the conversation.
+> It works by sending a `/start` to start the conversation, `/inspire` to get an inspirational message, `/joke` to get a random joke, and `/stop` to end the conversation.
 
 ## Built With
 
@@ -15,7 +15,7 @@
 * Rubocop
 * [Telegram API](https://core.telegram.org/api)
 * [TypeFit API](https://type.fit/api/quotes)
-* [yomama API](https://api.yomomma.info/)
+* [Official-joke API](https://official-joke-api.appspot.com/jokes/random)
 
 ## Live Demo
 
@@ -26,7 +26,7 @@
 
 1. `/start` to receive a greetings message.
 2. `/inspire` to receive an inspirational message.
-3. `/joke` to receive a **yo mama** joke.
+3. `/joke` to receive a random joke.
 4. `/stop` receive a farewell message.
 
 ### Ruby gem dependencies
